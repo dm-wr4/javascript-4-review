@@ -31,7 +31,7 @@ const bRight = board [8]
 
 if(tLeft !== undefined && tLeft === tMiddle && tLeft === tRight){
     alert ('Winner')
-    return
+    return //seeing an error message about these returns, not sure why or how to fix it so the game works.
 } 
 
 if(tLeft !== undefined && tLeft === mLeft && tLeft === bLeft){
